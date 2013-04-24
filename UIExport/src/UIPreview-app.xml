@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/3.7">
+	<id>UIPreview</id>
+	<filename>UI预览工具</filename>
+	<name>UI预览工具</name>
+	<versionNumber>0.0.1</versionNumber>
+	<initialWindow>
+		<content>[此值将由 Flash Builder 在输出 app.xml 中覆盖]</content>
+		<autoOrients>false</autoOrients>
+        <fullScreen>false</fullScreen>
+        <visible>true</visible>
+        <renderMode>direct</renderMode>
+    </initialWindow>
+</application>
