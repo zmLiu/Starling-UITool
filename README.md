@@ -26,6 +26,8 @@ image,sprite,button,textfield,batch,9宫格
 			
 			为元件添加一个名字。在程序里面就可以使用getChildByName获取元件了。(跟传统flash开发一样)
 			
+			支持子布局.
+			
 			(导出类名 使用 btn_ 开头被识别是按钮。batch_ 开头被识别的批处理对象,s9_开头被识别为9宫格)
 			
 工具分为两部分
