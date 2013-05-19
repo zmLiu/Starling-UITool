@@ -133,7 +133,7 @@ package
 			var file:File = e.target as File;
 			file.removeEventListener(Event.SELECT,selectSwfOK);
 			swfPathInput.text = file.url;
-			layoutFileNameInput.text = getName(file.url) + ".info";
+//			layoutFileNameInput.text = getName(file.url) + ".info";
 		}
 		
 		private function onSelectExportPathBtn(e:Event):void{
