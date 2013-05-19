@@ -2,6 +2,7 @@ Starling-UITool
 ===============
 
 StarlingUI导出工具。 需要FlashPro作为编辑器。 导出SWF然后读取数据。
+<<<<<<< HEAD
 -----------------------------------------------------------
 
 以前搞页游的时候 用flash的反射机制做UI很轻松。现在使用starling资源需要是位图。所以反射机制用不了了。
@@ -26,3 +27,7 @@ image,sprite,button,textfield,batch,9宫格
 工具飞
 
 
+=======
+
+导出的数据使用StarlingFeathers下的lzm.starling.ui.layout.LayoutUitl解析
+>>>>>>> 370ac861cb01675db7fc050d39e5065e5611c950
