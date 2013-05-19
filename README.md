@@ -24,6 +24,8 @@ image,sprite,button,textfield,batch,9宫格
 			
 			textfield 直接使用文本即可。不过需要设置文本必须是Dynamic Text.(支持文字颜色。大小，字体)
 			
+			(导出类名 使用 btn_ 开头被识别是按钮。batch_ 开头被识别的批处理对象)
+			
 工具分为两部分
 ------------
 			预览工具
