@@ -24,3 +24,8 @@ image,sprite,button,textfield,batch,9宫格
 			
 			textfield 直接使用文本即可。不过需要设置文本必须是Dynamic Text.(支持文字颜色。大小，字体)
 			
+工具分为两部分
+			预览工具
+					导出图片和布局文件信息.布局文件信息以.info结尾
+			预览工具
+					预览布局信息.选择导出工具导出的目录即可
