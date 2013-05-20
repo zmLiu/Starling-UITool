@@ -16,19 +16,19 @@ image,sprite,button,textfield,batch,9宫格
 第一步:创建fla(需要是actionscript3版本)
 -------------------------------------------------------
 
-<img src="/Starling-UITool/images/tutorial1.png" />
+<img src="images/tutorial1.png" />
 
 
 
 因为工具不是基于jsfl的。所以需要导出的项目需要设置Class名。
 
-<img src="/Starling-UITool/images/tutorial2.png" />
+<img src="images/tutorial2.png" />
 
 用于布局的元素 需要是独立的有点类似骨骼动画。这些独立的元素在导出之后会是一张张单独的图片。这些等于是素材		
 而由素材组成界面布局 需要在帧上加一个标签。表示它为一个布局信息。
 比如一个按钮如果是由多个原件组成。那么需要标示一下。好处是避免图片重复
 
-<img src="/Starling-UITool/images/tutorial3.png" />
+<img src="images/tutorial3.png" />
 
 			image，9宫格不需要加标签
 			
@@ -47,7 +47,7 @@ fla编辑完成。导出swf
 第二步:使用工具导出数据和图片
 -------------------------------------------------------
 
-<img src="/Starling-UITool/images/tutorial4.png" />
+<img src="images/tutorial4.png" />
 
 
 swf选择刚刚导出的swf文件.
@@ -59,7 +59,7 @@ swf选择刚刚导出的swf文件.
 
 再看看刚刚选择的输出地址，应该如下图
 
-<img src="/Starling-UITool/images/tutorial5.png" />
+<img src="images/tutorial5.png" />
 
 
 layout.info为数据文件。
