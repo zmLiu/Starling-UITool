@@ -16,7 +16,7 @@ package
 		{
 			asset = new AssetManager(STLConstant.scale,STLConstant.useMipMaps);
 			
-			var file:File = File.applicationDirectory;
+//			var file:File = File.applicationDirectory;
 //			asset.enqueue(file.resolvePath("asset/2x"));
 			asset.enqueue("asset/2x/BigImages/background.png");
 			asset.enqueue("asset/2x/icon_attack.png");
