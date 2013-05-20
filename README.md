@@ -30,16 +30,12 @@ image,sprite,button,textfield,batch,9宫格
 比如一个按钮如果是由多个原件组成。那么需要标示一下。好处是避免图片重复
 
 <img src="images/tutorial3.png" />
+			
 			button，sprite，btach需要加标签(由其他元素组成的都需要加标签。希望导出的是一张图片的原件不需要加标签)
-
 			image，9宫格不需要加标签
-			
 			textfield 直接使用文本即可。不过需要设置文本必须是Dynamic Text.(支持文字颜色。大小，字体)
-			
 			为元件添加一个名字。在程序里面就可以使用getChildByName获取元件了。(跟传统flash开发一样)
-			
 			支持子布局.
-			
 			(导出类名 使用 btn_ 开头被识别是按钮。batch_ 开头被识别的批处理对象,s9_开头被识别为9宫格)
 
 
