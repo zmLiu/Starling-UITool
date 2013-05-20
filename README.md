@@ -6,7 +6,8 @@ StarlingUI导出工具。 需要FlashPro作为编辑器
 
 以前搞页游的时候 用flash的反射机制做UI很轻松。
 现在使用starling资源需要是位图。所以反射机制用不了了。
-此工具就是为了解决这个问题。虽然还不完善但是已经实现了一些功能。过需要使用该账号下的starlingFeathers(https://github.com/zmLiu/StarlingFeathers)包.
+此工具就是为了解决这个问题。虽然还不完善但是已经实现了一些功能。
+需要使用该账号下的[starlingFeathers](https://github.com/zmLiu/StarlingFeathers)包.
 
 工具目前支持
 ------------------
