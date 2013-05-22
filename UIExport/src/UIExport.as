@@ -103,7 +103,8 @@ package
 			
 			exportScaleLabel = new Label(this,12,60,"输出倍数：");
 			exportScaleNumStep = new NumericStepper(this,72,60);
-			exportScaleNumStep.minimum = 1;
+			exportScaleNumStep.step = 0.5;
+			exportScaleNumStep.minimum = 0.5;
 			exportScaleNumStep.maximum = 10;
 			exportScaleNumStep.value = 1;
 			exportScaleNumStep.width = 60;
@@ -217,6 +218,9 @@ package
 			for (var i:int = 0; i < length; i++) {
 				clazz = appDomain.getDefinition(clazzKeys[i]) as Class;
 				mc = new clazz() as MovieClip;
+				if(mc == null){
+					continue;
+				}
 				if(mc.currentLabels.length == 0){
 					exportImages[getQualifiedClassName(mc)] = mc;
 				}else{
