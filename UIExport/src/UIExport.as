@@ -11,6 +11,7 @@ package
 	import flash.display.Loader;
 	import flash.display.LoaderInfo;
 	import flash.display.MovieClip;
+	import flash.display.PNGEncoderOptions;
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
@@ -31,7 +32,6 @@ package
 	import flash.utils.Dictionary;
 	import flash.utils.getQualifiedClassName;
 	
-	import export.PNGEncoder;
 	import export.Util;
 	
 	/**
@@ -256,7 +256,7 @@ package
 				bitmapdata = new BitmapData(rect.width,rect.height,true,0);
 				bitmapdata.draw(tempContent);
 				
-				imageData = PNGEncoder.encode(bitmapdata);
+				imageData = bitmapdata.encode(bitmapdata.rect,new PNGEncoderOptions());//PNGEncoder.encode(bitmapdata);
 				if(rect.width > (150*exportScale) && rect.height > (150*exportScale)){
 					file = new File(exportDir+"BigImages/"+k+".png");
 				}else{

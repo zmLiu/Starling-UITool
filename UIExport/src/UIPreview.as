@@ -15,7 +15,7 @@ package
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			stage.frameRate = 60;
 			
-			initStarling(UIPreviewMain,false,true);
+			initStarling(UIPreviewMain,480,false,true);
 			
 		}
 	}

@@ -31,7 +31,7 @@
         </excludedEntries>
       </libraryPathEntry>
       <libraryPathEntry kind="1" linkType="1" path="libs"/>
-      <libraryPathEntry kind="3" linkType="1" path="/StarlingFeathers20130326/bin/StarlingFeathers20130326.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="3" linkType="1" path="/StarlingFeathers20131016/bin/StarlingFeathers20131016.swc" useDefaultLinkType="false"/>
     </libraryPath>
     <sourceAttachmentPath/>
   </compiler>
@@ -49,7 +49,7 @@
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
   <buildTargets>
     <buildTarget buildTargetName="default" platformId="default">
-      <airSettings airCertificatePath="/Users/zmLiu/Desktop/IOS证书/ane.p12" airTimestamp="true" anePathSet="true" version="1">
+      <airSettings airCertificatePath="/Users/lingjing/Desktop/IOS证书/yzyz/ane.p12" airTimestamp="true" anePathSet="true" version="1">
         <airExcludes/>
         <anePaths/>
         <newLaunchParams/>

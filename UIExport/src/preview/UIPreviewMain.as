@@ -110,8 +110,8 @@ package preview
 					ratioLabel.y = (nativeStage.stageHeight - ratioLabel.height)/2;
 					
 					if(ratio == 1){
-						layoutObject = asset.getOther(layoutFileName)["layout"];
-						layoutUtil = new LayoutUitl(asset.getOther(layoutFileName),asset);
+						layoutObject = asset.getObject(layoutFileName)["layout"];
+						layoutUtil = new LayoutUitl(asset.getObject(layoutFileName),asset);
 						
 						
 						var items:Array = [];
